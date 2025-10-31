@@ -6,8 +6,8 @@ const Education = () => {
         {
             school: "International Institute of Information Technology Bhubaneswar",
             degree: "B.Tech in Computer Science and Technology (CSE)",
-            period: "Sept 2024 - Jun 2028",
-            cgpa: "First Year",
+            period: "Aug 2024 - Jun 2028",
+            cgpa: "7.5",
         },
         {
             school: "DAV Public School, Kukatpally, Hyderabad (CBSE)",

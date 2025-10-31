@@ -316,6 +316,9 @@ img {
 .skills-matplotlib { width: 55%; }
 .skills-javascript { width: 35%; }
 .skills-react { width: 40%; }
+.skills-sklearn { width: 70%; }
+.skills-docker { width: 45%; }
+.skills-gcp { width: 40%; }
 
 /* Responsive Layout */
 @media (max-width: 768px) {
@@ -323,6 +326,47 @@ img {
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
+}
+
+/* Styles for the new conceptual skills lists */
+.skills-subtitle {
+  margin-top: 2rem;
+  margin-bottom: var(--mb2);
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semi);
+  color: var(--first-color);
+}
+
+.skills-category-title {
+  font-size: 1.1rem; /* Slightly smaller than subtitle */
+  font-weight: var(--font-semi);
+  color: var(--second-color);
+  margin-top: var(--mb3);
+  margin-bottom: var(--mb2);
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding-left: 0;
+}
+
+.skill-item {
+  background-color: #f0f4ff; /* Light version of your --first-color */
+  color: var(--first-color);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi);
+  list-style: none;
+  transition: all 0.3s ease;
+}
+
+.skill-item:hover {
+  background-color: var(--first-color);
+  color: #ffffff;
+  transform: translateY(-2px);
 }
 
 
@@ -475,4 +519,3 @@ img {
 
     .show { right: 0; }
 }
-
